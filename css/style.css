@@ -31,6 +31,12 @@ header{
 
 .menu{
     display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.login{
+    margin-right: 5px;
     font-size: small;
 }
 
@@ -59,8 +65,8 @@ ul{
     background-color: #b4d0e7;
 }
 
-.width-1000{
-    max-width: 1000px;
+.width-900{
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -68,7 +74,7 @@ ul{
     text-align: center;
 }
 
-.big{
+.big-xxx{
     font-size: xxx-large;
 }
 
@@ -83,3 +89,74 @@ ul{
 .col-66{
     width: calc((100% / 3) * 2);
 }
+
+.arrow{
+    font-size: xx-large;
+    margin-top: 25px;
+}
+
+.img-100{
+    width: 100%;
+}
+
+.position-absolute{
+    position: absolute;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.margin-top-15vh{
+    margin-top: 15vh;
+}
+
+.margin-right-20{
+    margin-right: 20px;
+}
+
+.width-750{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.big-xx{
+    font-size: xx-large;
+}
+
+.checkbox-container {
+    position: relative;
+  }
+  
+  .custom-checkbox {
+    display: none;
+  }
+  
+  .custom-checkbox + label {
+    cursor: pointer;
+    padding-left: 20px;
+  }
+  
+  .custom-checkbox + label:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border: 2px solid #d5d5d7;
+    border-radius: 50%;
+    background: transparent;
+  }
+  
+  .custom-checkbox:checked + label:before {
+    box-sizing: border-box;
+    border: 3px solid #0061ff;
+    width: 13px;
+    height: 13px;
+  }
