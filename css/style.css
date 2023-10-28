@@ -242,3 +242,11 @@ ul{
 .margin-top-30{
     margin-top: 30px;
 }
+
+.col-75{
+    width: 75%;
+}
+
+.col-25{
+    width: 25%;
+}
