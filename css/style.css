@@ -35,6 +35,13 @@ header{
     font-size: small;
 }
 
+button{
+    background-color: #0061ff;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
 .login{
     margin-right: 5px;
     font-size: small;
@@ -161,9 +168,12 @@ ul{
     height: 13px;
 }
 
+.border-gray{
+    border: 1px solid #b2b2b2;
+}
+
 .col-33-20{
     width: calc((100% / 3) - 20px);
-    height: 500px;
 }
 
 .justify-between{
@@ -171,13 +181,12 @@ ul{
 }
 
 .div-head{
-    border: 1px solid #b2b2b2;
+    border-bottom: 1px solid #b2b2b2;
     padding: 10px;
     width: 100%;
 }
 
 .div-body{
-    border: 1px solid #b2b2b2;
     border-top: none;
     padding: 15px;
     padding-top: 20px;
@@ -189,24 +198,11 @@ ul{
 
 .div-body h3{
     font-size: large;
+    margin-bottom: 10px;
 }
 
 .color-gray{
     color: gray;
-}
-
-.li-user:before {
-    font-family: 'Font Awesome 6 Free';
-    content: '\f007';
-    margin-right: 5px;
-    font-weight: 900;
-    
-}
-
-.li-folder:before {
-    font-family: 'Font Awesome 6 Free';
-    content: '\f07b';
-    margin-right: 5px;
 }
 
 .display-inline{
@@ -227,4 +223,22 @@ ul{
 
 .color-blue{
     color: #0061ff;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.square{
+    background-color: red;
+    height: 400px;
+    width: 100%;
+}
+
+.margin-bottom-30{
+    margin-bottom: 30px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
 }
