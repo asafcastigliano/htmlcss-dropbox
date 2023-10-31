@@ -270,7 +270,7 @@ ul{
 .button-partner{
     background-color: white;
     color: black;
-    margin: 1px solid black;
+    border: 1px solid black;
     padding: 5px;
     margin-top: 10px;
 }
@@ -338,4 +338,29 @@ ul{
 
 .logo-big{
     width: 50%;
+}
+
+.color-darkred{
+    color: #5f0429;
+}
+
+.margin-bottom-70{
+    margin-bottom: 70px;
+}
+
+.button-try{
+    padding: 5px;
+    border: none;
+}
+
+.col-66-40{
+    width: calc((100% / 3) * 2 - 30px);
+}
+
+.col-33-40{
+    width: calc((100% / 3)- 30px);
+}
+
+.gap-30{
+    gap: 30px 30px;
 }
