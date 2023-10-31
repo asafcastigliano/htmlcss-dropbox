@@ -368,3 +368,15 @@ ul{
 footer{
     background-color: #000000;
 }
+
+.col-20-20{
+    width: calc((100% / 5) - 20px);
+}
+
+.color-white{
+    color: white;
+}
+
+.padding-top-30{
+    padding: 30px;
+}
